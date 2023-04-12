@@ -1,7 +1,7 @@
 # cisco-programmability-and-automation
 
 ## Check-config
-# Purpose: Determine which features are configured on a Cisco IOS XE device using the output from 'show run'
+### Purpose: Determine which features are configured on a Cisco IOS XE device using the output from 'show run'
 
 
 Using this file
