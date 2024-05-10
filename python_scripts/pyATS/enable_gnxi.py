@@ -1,4 +1,4 @@
-rom pyats import topology
+from pyats import topology
 
 # let's write an inline testbed file for simplicity
 # (edit this to whatever your testbed looks like)
