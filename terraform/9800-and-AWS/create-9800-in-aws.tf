@@ -15,7 +15,8 @@ provider "aws" {
   shared_credentials_files = [".aws/credentials.txt"]
 }
 
-## Create AMI for a Catalyst 9800 in AWS
+# Create AMI for a Catalyst 9800 in AWS
+# Read more about creating an AWS AMI instance: https://registry.terraform.io/providers/hashicorp/aws/latest/docs/resources/ami_from_instance
 resource "aws_instance" "app_server" {
   ami           = "ami-0b9a457b6bcf79b71" 
   instance_type = "c5.xlarge"
