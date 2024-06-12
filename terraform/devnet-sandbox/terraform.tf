@@ -3,7 +3,8 @@
 # apply this terraform file using 'terraform apply -auto-approve'
 # remove this config using 'terraform destroy' & confirm removing the config using 'yes'
 
-# This will create Loopback800 the DevNet Sandbox
+# This will create Loopback800 the DevNet Sandbox using the Cisco IOS XE provider and the CLI resource 
+# Learn more here: https://registry.terraform.io/providers/CiscoDevNet/iosxe/latest/docs/resources/cli
 
 terraform {
   required_providers {
